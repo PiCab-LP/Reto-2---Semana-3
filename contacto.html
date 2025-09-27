@@ -26,21 +26,26 @@
             <form>
                 <fieldset>
                     <legend>Tus Datos</legend>
-                    <label>Nombre:</label>
-                    <input type="text" placeholder="Tu Nombre" required>
-                    <br>
-                    <label>Asunto:</label>
-                    <input type="text" placeholder="Tu Asunto" required>
-                    <br>
-                    <label>Email:</label>
-                    <input type="email" placeholder="Tu Email" required>
-                    <br>
-                    <label>Teléfono:</label>
-                    <input type="tel" placeholder="Tu Teléfono" required>
-                    <br>
+                    <div>
+                        <label>Nombre:</label>
+                        <input type="text" placeholder="Tu Nombre" required>
+                    </div>
+                    <div>
+                        <label>Asunto:</label>
+                        <input type="text" placeholder="Tu Asunto" required>
+                    </div>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" placeholder="Tu Email" required>
+                    </div>
+                    <div>
+                        <label>Teléfono:</label>
+                        <input type="tel" placeholder="Tu Teléfono" required>
+                    </div>
+                    <div>
                     <label>Mensaje:</label>
                     <textarea required></textarea>
-                    <br>
+                    </div>
                 </fieldset>
 
                 <fieldset>
@@ -57,12 +62,14 @@
 
                 <fieldset>
                     <legend>Información extra</legend>
-                    <label>Cliente</label>
-                    <input type="radio">
-                    <br>
-                    <label>Proveedor</label>
-                    <input type="radio">
-                    <br>
+                    <div>
+                        <label>Cliente</label>
+                        <input type="radio">
+                    </div>
+                    <div>
+                        <label>Proveedor</label>
+                        <input type="radio">
+                    </div>
                     <label>Categoría de interés</label>
                     <select>
                         <option>--Seleccione--</option>
@@ -73,7 +80,6 @@
                         <option>Televisión</option>
                     </select>
                 </fieldset>
-
                 <input class="button" type="submit" value="Enviar formulario"></button>
             </form>
     </main>
