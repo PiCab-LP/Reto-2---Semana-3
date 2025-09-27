@@ -27,26 +27,26 @@
                 <fieldset>
                     <legend>Tus Datos</legend>
                     <label>Nombre:</label>
-                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Tu Nombre" required>
                     <br>
                     <label>Asunto:</label>
-                    <input type="text" placeholder="Tu Asunto">
+                    <input type="text" placeholder="Tu Asunto" required>
                     <br>
                     <label>Email:</label>
-                    <input type="email" placeholder="Tu Email">
+                    <input type="email" placeholder="Tu Email" required>
                     <br>
                     <label>Teléfono:</label>
-                    <input type="tel" placeholder="Tu Teléfono">
+                    <input type="tel" placeholder="Tu Teléfono" required>
                     <br>
                     <label>Mensaje:</label>
-                    <textarea></textarea>
+                    <textarea required></textarea>
                     <br>
                 </fieldset>
 
                 <fieldset>
                     <legend>País</legend>
                     <label>País</label>
-                    <select>
+                    <select required>
                         <option>--Seleccione--</option>
                         <option>Perú</option>
                         <option>Venezuela</option>
@@ -73,6 +73,8 @@
                         <option>Televisión</option>
                     </select>
                 </fieldset>
+
+                <input class="button" type="submit" value="Enviar formulario"></button>
             </form>
     </main>
 
