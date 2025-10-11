@@ -118,3 +118,10 @@ span{
     color: white;
     font-size: 17px;
 }
+
+.our-products{
+    font-family: var(--primary-font);
+    font-size: 40px;
+    text-align: center;
+    padding: 1rem;
+}
