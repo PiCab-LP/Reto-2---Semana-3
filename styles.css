@@ -150,6 +150,21 @@ img{
     height: 50%;
 }
 
+.textoproduct4{
+    padding: 20px;
+    height: 50%;
+}
+
+.textoproduct5{
+    padding: 20px;
+    height: 50%;
+}
+
+.textoproduct6{
+    padding: 20px;
+    height: 50%;
+}
+
 
 .containerproduct2{
     background-color: #037bc0;
@@ -221,11 +236,16 @@ img{
 
 .containerproduct4{
     background-color: #037bc0;
-    width: 50%;
-    margin: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+
 }
 .imgproduct4{
-    width: 100%;
+    height: 50%;
+    object-fit: cover;
 }
 .titlteproduct4{
     font-family: var(--primary-font);
@@ -252,11 +272,15 @@ img{
 
 .containerproduct5{
     background-color: #037bc0;
-    width: 50%;
-    margin: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
 }
 .imgproduct5{
-    width: 100%;
+    height: 50%;
+    object-fit: cover;
 }
 .titlteproduct5{
     font-family: var(--primary-font);
@@ -283,11 +307,15 @@ img{
 
 .containerproduct6{
     background-color: #037bc0;
-    width: 50%;
-    margin: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
 }
 .imgproduct6{
-    width: 100%;
+    height: 50%;
+    object-fit: cover;
 }
 .titlteproduct6{
     font-family: var(--primary-font);
@@ -313,7 +341,9 @@ img{
 }
 
 .product456{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 .product1{
