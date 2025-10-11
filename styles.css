@@ -146,7 +146,8 @@ img{
 }
 
 .textoproducto3{
-    padding: 10px;
+    padding: 20px;
+    height: 50%;
 }
 
 
@@ -188,6 +189,8 @@ img{
 .containerproduct3{
     background-color: #037bc0;
     height: 40rem;
+    display: flex;
+    flex-direction: column;
 }
 .imgproduct3{
     height: 50%;
