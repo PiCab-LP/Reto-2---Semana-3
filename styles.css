@@ -125,6 +125,7 @@ img{
 }
 .main-ourp{
     text-align: center;
+    padding: 30px;
 }
 .our-products{
     font-family: var(--primary-font);
@@ -398,11 +399,28 @@ img{
 
 .footer{
     display: flex;
+    flex-wrap: wrap;
     gap: 15%;
     justify-content: center;
+    border-top: 1px solid black;
 }
 
 .footertitle{
     font-family: var(--primary-font);
-    font-size: 30px;
+    font-size: 35px;
+}
+.footerlist{
+    list-style: none;
+}
+
+.footertext{
+    text-decoration: none;
+    color: black;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.finished{
+    text-align: center;
 }
