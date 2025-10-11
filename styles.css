@@ -1,9 +1,39 @@
 :root{
     --primary-font:"Playfair Display", serif;
     --secondary-font:"Raleway", sans-serif;
-}
-
-h1{
-    font-family: var(--primary-font);
     
 }
+.title{
+    padding: 1rem;
+}
+h1{
+    font-family: var(--primary-font);
+    font-size: 50px;
+    text-align: center;
+}
+
+span{
+    color: #037bc0;
+}
+
+.container{
+    justify-content: space-between;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-top: 1px solid black;
+}
+.nav{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    font-family: var(--secondary-font);
+    list-style: none;
+    text-align: center;
+}
+
+.itembar{
+    color: black;
+    text-decoration: none;
+}
+
