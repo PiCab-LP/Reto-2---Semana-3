@@ -141,13 +141,20 @@ img{
     gap: 30px;
 }
 .textoproducto2{
+    padding: 20px;
+    height: 50%;
+}
+
+.textoproducto3{
     padding: 10px;
 }
 
+
 .containerproduct2{
     background-color: #037bc0;
-    height: auto
-
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .imgproduct2{
