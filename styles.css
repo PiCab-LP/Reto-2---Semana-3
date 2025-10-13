@@ -454,3 +454,41 @@ img{
 .mainaboutus{
     padding: 1rem;
 }
+
+.gallerytitle{
+    font-family: var(--primary-font);
+    font-size: 35px;
+    text-align: center;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.gallery1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0.5rem;
+}
+
+.imagendegaleria{
+    width: 20%;
+}
+
+.gallery2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0.5rem;
+}
+
+.gallery3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0.5rem;
+}
