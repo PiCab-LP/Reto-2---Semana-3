@@ -407,7 +407,7 @@ img{
 
 .footertitle{
     font-family: var(--primary-font);
-    font-size: 35px;
+    font-size: 28px;
 }
 .footerlist{
     list-style: none;
@@ -417,7 +417,7 @@ img{
     text-decoration: none;
     color: black;
     font-family: var(--secondary-font);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
 }
 
