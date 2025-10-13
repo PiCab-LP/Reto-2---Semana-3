@@ -424,3 +424,33 @@ img{
 .finished{
     text-align: center;
 }
+
+.pageaboutus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 10%;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+.imgpageaboutus{
+    width: 100%;
+    object-fit: cover;
+    height: 25rem;
+}
+
+.pageaboutustitle{
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 40px;
+}
+
+.pageaboutustext{
+    font-family: var(--secondary-font);
+    text-align: center;
+    padding: 10%;
+}
+
+.mainaboutus{
+    padding: 1rem;
+}
