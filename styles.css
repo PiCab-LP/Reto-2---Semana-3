@@ -606,3 +606,91 @@ img{
 .l-height{
     line-height: 40px;
 }
+
+.t-align-center{
+    text-align: center;
+}
+
+.container-contact{
+    padding: 3rem;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact-title{
+    font-family: var(--primary-font);
+    font-size: 35px;
+}
+
+.font-primary{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+}
+
+.contact-title-1{
+    background-color: #005485;
+    width: 80%;
+    color: white;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.d-flex-column{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30rem;
+    padding: 2rem;
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    text-align: left;
+}
+
+.campo label{
+    flex-basis: 8rem;
+
+}
+
+.campo input{
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    text-align: left;
+    align-items: left;
+}
+
+.campo textarea{
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+}
+
+.campo select{
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+}
+
+.d-flex-column2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 8rem;
+    padding-top: 2rem;
+}
+
+.d-flex-column3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15rem;
+    padding-top: 2rem;
+}
+
+.marginb{
+    margin-bottom: 2rem;
+}

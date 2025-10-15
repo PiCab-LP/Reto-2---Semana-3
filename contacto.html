@@ -29,57 +29,62 @@
         </div>
     </header>
 
-    <main>
-            <h2>Contacto</h2>
-            <form>
-                <fieldset>
-                    <legend>Tus Datos</legend>
-                    <div>
-                        <label>Nombre:</label>
-                        <input type="text" placeholder="Tu Nombre" required>
+    <main class="container-contact t-align-center">
+            <h2 class="contact-title">Contacto</h2>
+            <form class="font-primary">
+                <fieldset class="d-flex-column marginb">
+                    <legend class="contact-title-1">Tus Datos</legend>
+                    <div >
+                        <div class="campo">
+                            <label>Nombre:</label>
+                            <input type="text" placeholder="Tu Nombre" required>
+                        </div>
+                        <div class="campo">
+                            <label>Asunto:</label>
+                            <input type="text" placeholder="Tu Asunto" required>
+                        </div>
+                        <div class="campo">
+                            <label>Email:</label>
+                            <input type="email" placeholder="Tu Email" required>
+                        </div>
+                        <div class="campo">
+                            <label>Teléfono:</label>
+                            <input type="tel" placeholder="Tu Teléfono" required>
+                        </div>
                     </div>
-                    <div>
-                        <label>Asunto:</label>
-                        <input type="text" placeholder="Tu Asunto" required>
-                    </div>
-                    <div>
-                        <label>Email:</label>
-                        <input type="email" placeholder="Tu Email" required>
-                    </div>
-                    <div>
-                        <label>Teléfono:</label>
-                        <input type="tel" placeholder="Tu Teléfono" required>
-                    </div>
-                    <div>
+                    <div class="campo">
                     <label>Mensaje:</label>
                     <textarea required></textarea>
                     </div>
                 </fieldset>
 
-                <fieldset>
-                    <legend>País</legend>
-                    <label>País</label>
-                    <select required>
+                <fieldset class="d-flex-column2 marginb">
+                    <legend class="contact-title-1">País</legend>
+                    <div class="campo">
+                        <label>País</label>
+                        <select required>
                         <option>--Seleccione--</option>
                         <option>Perú</option>
                         <option>Venezuela</option>
                         <option>México</option>
                         <option>Colombia</option>
                     </select>
+                    </div>
                 </fieldset>
 
-                <fieldset>
-                    <legend>Información extra</legend>
-                    <div>
+                <fieldset class="d-flex-column3 marginb">
+                    <legend class="contact-title-1">Información extra</legend>
+                    <div class="campo">
                         <label>Cliente</label>
                         <input type="radio">
                     </div>
-                    <div>
+                    <div class="campo">
                         <label>Proveedor</label>
                         <input type="radio">
                     </div>
+                    <div class="campo">
                     <label>Categoría de interés</label>
-                    <select>
+                        <select>
                         <option>--Seleccione--</option>
                         <option>Cocina</option>
                         <option>Exterior</option>
@@ -87,8 +92,9 @@
                         <option>Oficina</option>
                         <option>Televisión</option>
                     </select>
+                    </div>
                 </fieldset>
-                <input class="button" type="submit" value="Enviar formulario"></button>
+                <input class="blogleer" type="submit" value="Enviar formulario">
             </form>
     </main>
 
